@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 export default defineConfig({
-	base : "/topology-grid-example",
+	// base : "/topology-grid-example",
 	build: {
 		target: "esnext",
 	},
